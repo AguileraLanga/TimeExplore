@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TimeExplore – Agencia Turística</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0b1c36;
+      color: #f0e6d6;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #13294b;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-style: italic;
+      color: #d6b676;
+      font-size: 1.3rem;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      border-bottom: 1px solid #d6b676;
+      padding-bottom: 0.5rem;
+      color: #f7d28a;
+    }
+    .itinerario {
+      margin-bottom: 3rem;
+    }
+    .dia {
+      margin: 0.3rem 0;
+    }
+    .galeria img {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #13294b;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>TimeExplore</h1>
+  <p>Viaja por el tiempo y la historia</p>
+</header>
+
+<section>
+  <h2>Itinerario A: Egipto Milenario</h2>
+  <p><strong>Duración:</strong> 8 días / 7 noches – <strong>Precio:</strong> 1.100 €</p>
+  <div class="itinerario">
+    <p class="dia">Día 1: Llegada a El Cairo y cena tradicional</p>
+    <p class="dia">Día 2: Pirámides de Giza, Esfinge, Museo Egipcio</p>
+    <p class="dia">Día 3: Vuelo a Luxor, Templo de Karnak</p>
+    <p class="dia">Día 4: Valle de los Reyes, navegación</p>
+    <p class="dia">Día 5: Templo de Edfu y Kom Ombo</p>
+    <p class="dia">Día 6: Templo de Philae y paseo en faluca</p>
+    <p class="dia">Día 7: Abu Simbel y regreso</p>
+    <p class="dia">Día 8: Tiempo libre y vuelo de vuelta</p>
+  </div>
+</section>
+
+<section>
+  <h2>Itinerario B: Ruta de Castillos (España)</h2>
+  <p><strong>Duración:</strong> 5 días / 4 noches – <strong>Precio:</strong> 520 €</p>
+  <div class="itinerario">
+    <p class="dia">Día 1: Segovia – Acueducto y cochinillo</p>
+    <p class="dia">Día 2: Alcázar y traslado a Ávila</p>
+    <p class="dia">Día 3: Murallas y convento de Santa Teresa</p>
+    <p class="dia">Día 4: Toledo – Catedral, Alcázar</p>
+    <p class="dia">Día 5: Taller de espadas y regreso</p>
+  </div>
+</section>
+
+<section>
+  <h2>Recomendaciones prácticas</h2>
+  <ul>
+    <li>Pasaporte vigente, ropa ligera, botella de agua</li>
+    <li>Adaptador europeo (tipo C)</li>
+    <li>Zapatillas cómodas para España, protector solar para Egipto</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Gastronomía y cultura</h2>
+  <ul>
+    <li>Egipto: falafel, koshari, té de hibisco</li>
+    <li>España: cochinillo, yemas, mazapán, venado</li>
+    <li>Consejo: regatea en los mercados egipcios y respeta códigos de vestimenta</li>
+  </ul>
+</section>
+
+<section class="galeria">
+  <h2>Galería</h2>
+  <!-- Aquí puedes poner tus imágenes -->
+  <img src="imagenes/piramides.jpg" alt="Pirámides de Giza">
+  <img src="imagenes/toledo.jpg" alt="Vista de Toledo">
+  <img src="imagenes/abusimbel.jpg" alt="Templo de Abu Simbel">
+  <img src="imagenes/cochinillo.jpg" alt="Cochinillo asado">
+</section>
+
+<footer>
+  © 2025 Agencia TimeExplore – Proyecto escolar de 3º ESO
+</footer>
+
+</body>
+</html>
